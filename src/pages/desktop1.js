@@ -29,7 +29,7 @@ const Desktop1 = (parse) => {
             alt=""
             src="/background.svg"
           />
-          <div className="absolute top-[18.81rem] left-[61.5rem] w-[32.06rem] h-[38.69rem] text-center">
+          <div className="absolute top-[20rem] left-[70rem] w-[32.06rem] h-[38.69rem] text-center">
             <div className="absolute top-[1.75rem] left-[0rem] font-semibold text-mediumturquoise-200 inline-block w-[16.19rem]">
               Values of Index
             </div>
@@ -89,16 +89,19 @@ const Desktop1 = (parse) => {
             <div className="absolute top-[34.31rem] left-[1.31rem] rounded-3xs bg-brown w-[3rem] h-[3rem]" />
             <div className="absolute top-[6.88rem] left-[1.31rem] rounded-3xs bg-lime w-[3rem] h-[3rem]" />
           </div>
-          <div className="absolute top-[18.69rem] left-[17.69rem] inline-block w-[36.44rem]">
-            <p className="m-0">{`The higher the AQI value, the greater the level of air pollution and the greater the health concern. `}</p>
-            <p className="m-0">{`For each pollutant an AQI value of 100 generally corresponds to an ambient air concentration that equals the level of the short-term national ambient air quality standard for protection of public health. `}</p>
+          <div className="absolute top-[20rem] left-[23rem] inline-block w-[36.44rem]">
             <p className="m-0">
-              AQI values at or below 100 are generally thought of as
-              satisfactory. When AQI values are above 100, air quality is
-              unhealthy: at first for certain sensitive groups of people, then
-              for everyone as AQI values get higher.
+              The higher the AQI value, the greater the level of air pollution
+              and the greater the health concern. For each pollutant an AQI
+              value of 100 generally corresponds to an ambient air concentration
+              that equals the level of the short-term national ambient air
+              quality standard for protection of public health. AQI values at or
+              below 100 are generally thought of as satisfactory. When AQI
+              values are above 100, air quality is unhealthy: at first for
+              certain sensitive groups of people, then for everyone as AQI
+              values get higher. The AQI is divided into six categories. Each
+              category corresponds to a different level of health concern.
             </p>
-            <p className="m-0">{`The AQI is divided into six categories. Each category corresponds to a different level of health concern. `}</p>
           </div>
           <div className="absolute top-[10.06rem] left-[51.44rem] text-[4.69rem] font-medium font-taviraj">
             AQI Basics
@@ -165,7 +168,7 @@ const Desktop1 = (parse) => {
                 minLength
               />
               <img
-                className="absolute h-[3.22%] w-[2.76%] top-[41.33%] right-[62.7%] bottom-[55.45%] left-[34.54%] max-w-full overflow-hidden max-h-full"
+                className="absolute h-[3.22%] w-[2.76%] top-[41.33%] right-[62.7%] bottom-[55.45%] left-[48.04%] max-w-full overflow-hidden max-h-full"
                 alt=""
                 src="/degree.svg"
               />
@@ -236,18 +239,29 @@ const Desktop1 = (parse) => {
           </div>
         </div>
         <div className="absolute top-[-40.24rem] left-[0rem] w-[141.95rem] h-[90.61rem] text-[4.69rem] text-lightcyan-300 font-taviraj -z-0">
-          
           <div className="absolute top-[40.24rem] left-[0rem] bg-gray-200 w-[110.38rem] h-[40rem] flex flex-col py-[2.75rem] pr-[4.31rem] pl-[4.75rem] box-border items-center justify-center gap-[1.63rem]">
-            <div className="relative font-medium">About AQI Detector</div>
-            <div className="relative text-[1.94rem] font-urbanist text-lightcyan-100 inline-block w-[46.31rem]">
-              The AQI detector is a device designed to monitor and measure the
-              air quality in a specific location. It utilizes a combination of
-              gas sensors, dust sensors, and the nodeMCU microcontroller to
-              collect real-time data on air pollutants and particulate matter.
-              The nodeMCU collects data from the gas sensors and dust sensors
-              and transmits it to a cloud-based or local server for further
-              analysis. The device employs machine learning (ML) algorithms to
-              process the sensor data and calculate the Air Quality Index.
+            <div className="relative font-medium top-[1.5rem]">
+              About AQI Detector
+            </div>
+            <div className="relative text-[1.75rem] font-urbanist text-lightcyan-100 inline-block w-[75rem]">
+              The AQI detector is a device designed to monitor and measure air
+              quality in a specific location. It utilizes a combination of gas
+              sensors, dust sensors, and the nodeMCU microcontroller to collect
+              real-time data on air pollutants and particulate matter. The
+              nodeMCU collects data from the gas sensors and dust sensors and
+              transmits it to a cloud-based or local server for further
+              analysis. By combining hardware components with advanced data
+              analysis techniques, this system provides valuable insights into
+              the level of pollutants present in the surrounding environment.
+              The sensors are carefully wired and connected to appropriate pins
+              on the NodeMCU, ensuring accurate data acquisition. Calibration of
+              the sensors may be necessary to ensure precise measurements. Once
+              the sensor data is acquired, it undergoes preprocessing to prepare
+              it for further analysis. The predicted AQI values can be displayed
+              on an output device such as a web interface, allowing users to
+              monitor air quality instantly. This system contributes to creating
+              healthier and safer environments by raising awareness and
+              promoting proactive measures to address air pollution..
             </div>
           </div>
         </div>
